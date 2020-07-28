@@ -36,31 +36,31 @@ They are presented in the order that I used them to supercharge my skills, which
 
 The process for selecting them was something like this:
 
-1. Google for ```best books/way to learn [insert your thing]```.
+**1. Google for ```best books/way to learn [insert your thing]```.**
 
-2. Have a quick look at the main results.
+**2. Have a quick look at the main results.**
 
 These were usually lists of the best books on the topic.
 
-3. Pick a few of the books in these lists based on their title and description.
+**3. Pick a few of the books in these lists based on their title and description.**
 
 I tried to focus on books that had a practical approach to the topic.
 
-4. Sort the picks by ratings.
+**4. Sort the picks by ratings.**
 
 For that, I mostly used Amazon ratings to compare all picks on the same basis. If other ratings were available for all the books, like Goodreads, then I used that instead.
 
-5. Look at the contents of the sorted picks, and also at the comments from other readers, to filter out the less-than-great options.
+**5. Look at the contents of the sorted picks, and also at the comments from other readers, to filter out the less-than-great options.**
 
 This way, I could get a grasp of how good the book would fit my needs, by considering things like tone and style of the author, target level (beginner, intermediate, advanced, Super Saiyan), completeness, and if it was up to date with the latest versions and practices.
 
-6. Finally, I came up with a sort of learning path by defining the order in which I would use the resources for myself.
+**6. Finally, I came up with a sort of learning path by defining the order in which I would use the resources for myself.**
 
 Now, to the sources of knowledge.
 
 [TBD]
 
-Django:
+### Django
 
 https://www.djangoproject.com/start/
 
@@ -72,7 +72,7 @@ https://djangoforprofessionals.com/
 
 https://www.amazon.com.mx/Django-Example-Third-Antonio-Mel%C3%A9/dp/1838981950
 
-Machine Learning / Deep Learning:
+### Machine Learning / Deep Learning
 
 https://www.oreilly.com/library/view/deep-learning-cookbook/9781491995839/
 
@@ -100,6 +100,6 @@ https://link.springer.com/book/10.1007/978-0-387-85820-3
 
 https://www.amazon.com/Machine-Learning-Recommender-System-Beginners-ebook/dp/B07DWS346Y
 
-Mongo:
+### Mongo
 
 Mongo Academy
