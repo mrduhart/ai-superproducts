@@ -24,3 +24,15 @@ ALLOWED_HOSTS = ['0.0.0.0', '192.168.99.100']
   - Models need to be registered in their admin.py to appear here
   - We can edit a model's fields from here
   - We can look at the history of changes
+- Views are akin to an API: take a request as input, and return a response
+    - They can also take keyword arguments from the url pattern (mapped from the URLconf).
+    - The logic in the view is up to the dev.
+- Templates contain the html used by views
+    - Work with Liquid
+    - Loaded via loader.get_template and then rendered with a context (dictionary of arguments for the template)
+    - Can also be rendered in a shortcut: request, template, context
+    - Have dot-lookup access to object attributes in this order: dictionary lookup, attribute lookup, list-index lookup.
+- A 404 error can be raised directly in a try-except block or through a shortcut that takes a model and keyword arguments for its manager (get_object_or_404 for get method, get_list_or_404 for filter method)
+- The url liquid tag maps view names to url patterns
+    - Helps to remove hardcoded urls
+    - Can (should) be combined with app namespacing to resolve equally-named views
