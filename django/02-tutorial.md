@@ -97,3 +97,8 @@ ALLOWED_HOSTS = ['0.0.0.0', '192.168.99.100']
     - Separate method for each condition to test
     - Test methods names that describe their function
     - Code coverage for identifying which code is not tested yet
+
+- Django takes care of static files for more complex apps: django.contrib.staticfiles
+    - Put static files in a (namespaced) "static" directory in app
+    - Set settings values for static files finders and base url
+    - Include static tag in templates (but not in static files themselves; these should be relative paths)
