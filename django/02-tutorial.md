@@ -112,3 +112,12 @@ ALLOWED_HOSTS = ['0.0.0.0', '192.168.99.100']
   - Change admin default template
     - Assign values to settings
     - Replace template file: python -c "import django; print(django.__path__)"
+
+- Packaging for reusability
+  1. Move app out of project
+  2. Create README and LICENCSE
+  3. Create setup.py and setup.cfg for setuptools
+  4. Create MANIFEST for non-python files
+  5. Build package: python setup.py sdist
+  6. Install: virtual environment (preferred) or user library
+  7. Publish
