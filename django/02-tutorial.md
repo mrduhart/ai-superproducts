@@ -37,8 +37,8 @@ ALLOWED_HOSTS = ['0.0.0.0', '192.168.99.100']
   - We can look at the history of changes
 
 - Views are akin to an API: take a request as input, and return a response
-    - They can also take keyword arguments from the url pattern (mapped from the URLconf).
-    - The logic in the view is up to the dev.
+  - They can also take keyword arguments from the url pattern (mapped from the URLconf).
+  - The logic in the view is up to the dev.
 
 - Templates contain the html used by views
   - Work with Liquid
@@ -65,40 +65,50 @@ ALLOWED_HOSTS = ['0.0.0.0', '192.168.99.100']
   - Evaluating during design vs refactoring later
 
 - Testing is VERY important
-    - To prevent, detect and solve errors
-    - To increase code and product quality
-    - To collaborate
+  - To prevent, detect and solve errors
+  - To increase code and product quality
+  - To collaborate
 
 - Automated testing avoids repeating work
-    - Once a test is written, it is forever useful
-    - Detects broken code as soon as new features are added
-    - Base for test-driven development: write tests first, then code to pass them, then refactor and check tests again
-    - Allows continuous integration
+  - Once a test is written, it is forever useful
+  - Detects broken code as soon as new features are added
+  - Base for test-driven development: write tests first, then code to pass them, then refactor and check tests again
+  - Allows continuous integration
 
 - Django includes tools for testing
-    - Test file layout: app.tests.py
-        - Contains classes and methods for testing
-        - Give descriptive names to objects, begin method names with test_
-    - Tools for testing: django.test
-        - TestCase class for inheritance
-        - Assertions
-        - A test client for interacting with views: makes requests, receives responses with extra data (e.g. context, status codes)
-    - Integration with automated-browser tools (e.g. Selenium): LiveServerTestCase
-    - Command line utility: python manage.py test app
-        - Runs tests and outputs results
-        - Creates a test database (deleted after each test)
+  - Test file layout: app.tests.py
+    - Contains classes and methods for testing
+    - Give descriptive names to objects, begin method names with test_
+  - Tools for testing: django.test
+    - TestCase class for inheritance
+    - Assertions
+    - A test client for interacting with views: makes requests, receives responses with extra data (e.g. context, status codes)
+  - Integration with automated-browser tools (e.g. Selenium): LiveServerTestCase
+  - Command line utility: python manage.py test app
+    - Runs tests and outputs results
+    - Creates a test database (deleted after each test)
 
 - Testing best practices
-    - Don't be lazy, no "clever" refactoring of tests (is the code failing, or is it the test that's failing?)
-    - More is better: once written, it's useful forever (partially)
-    - Redundancy is good
-    - Tests help look after themselves (did the code break it or is it no longer valid?)
-    - Separate TestClass for each model and view
-    - Separate method for each condition to test
-    - Test methods names that describe their function
-    - Code coverage for identifying which code is not tested yet
+  - Don't be lazy, no "clever" refactoring of tests (is the code failing, or is it the test that's failing?)
+  - More is better: once written, it's useful forever (partially)
+  - Redundancy is good
+  - Tests help look after themselves (did the code break it or is it no longer valid?)
+  - Separate TestClass for each model and view
+  - Separate method for each condition to test
+  - Test methods names that describe their function
+  - Code coverage for identifying which code is not tested yet
 
 - Django takes care of static files for more complex apps: django.contrib.staticfiles
-    - Put static files in a (namespaced) "static" directory in app
-    - Set settings values for static files finders and base url
-    - Include static tag in templates (but not in static files themselves; these should be relative paths)
+  - Put static files in a (namespaced) "static" directory in app
+  - Set settings values for static files finders and base url
+  - Include static tag in templates (but not in static files themselves; these should be relative paths)
+
+- Django allows customizing the admin site
+  - Change objects display by registering model admin: admin.ModelAdmin
+    - Specify fields and fieldsets
+    - Include related objects as inlines (should also be registered)
+    - Modify change list (show other fields and methods)
+    - Add search and filters
+  - Change admin default template
+    - Assign values to settings
+    - Replace template file: python -c "import django; print(django.__path__)"
