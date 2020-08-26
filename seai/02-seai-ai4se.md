@@ -1,5 +1,4 @@
 - Sources
-
   - https://ckaestne.github.io/seai/S2020/slides/02_aibasics1/introml.html#/3
   - https://ckaestne.github.io/seai/S2020/slides/03_aibasics2/aioverview.html#/
 
