@@ -64,7 +64,21 @@
     - **Make tradeoff decisions (core of software engineering)**
     - Constraints, priorities, analysis w/o implementation
 
-- Software lifecyles: Agile (vs stupid waterfall)
-  - Phases: requirements, design, implementation, testing, maintenance
-  - Waterfall: obsolete, bad at risk, too linear
-  -
+- Software Development Life Cyles
+  - Phases: requirements -> design -> implementation -> testing -> deployment -> maintenance
+  - Waterfall: phases are all linear, bad at risk (changes) and scale, obsolete but good for small and short projects
+    - V-shaped: emphasis on testing
+  - Iterative: phases happen in repeating cycles (iterations, duh), one iteration ~= waterfall, more demanding, requires specialists and constant management
+    - Spiral: prototypes by stages, fixed timeframes for switching (even when not done)
+  - Agile: great for risk and uncertainty (constant changes), all phases happen all the time, bit of a mess, requires lots of communication & self-organization (highly professional, skilled, integrated and client-oriented teams), estimations of cost and time are more difficult, might exceed expected times
+    - XP: pair programming and other crazy stuff
+    - Scrum: all about roles and rituals
+    - Manifesto
+      - **Individuals and interactions** > processes and tools
+      - **Working software** > comprehensive documentation
+      - **Customer collaboration** > contract negotiation
+      - **Responding to change** > following a plan
+  - **Kanban is an approach for process improvement, NOT A SDLC METHODOLOGY**
+    - ...
+  - Best practices
+    - ...
