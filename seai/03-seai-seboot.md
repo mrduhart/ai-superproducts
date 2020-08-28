@@ -1,5 +1,7 @@
 - Sources
   - https://ckaestne.github.io/seai/F2019/slides/03_se_bootcamp/se.html#/
+  - https://existek.com/blog/sdlc-models/
+  - https://www.digite.com/kanban/what-is-kanban/
 
 - Importance of process
   - Innovative (modern software) vs routine (established software), both need a **process: activities + results -> product**
@@ -64,13 +66,13 @@
     - **Make tradeoff decisions (core of software engineering)**
     - Constraints, priorities, analysis w/o implementation
 
-- Software Development Life Cyles
+- Software Development Life Cyle (models)
   - Phases: requirements -> design -> implementation -> testing -> deployment -> maintenance
-  - Waterfall: phases are all linear, bad at risk (changes) and scale, obsolete but good for small and short projects
-    - V-shaped: emphasis on testing
-  - Iterative: phases happen in repeating cycles (iterations, duh), one iteration ~= waterfall, more demanding, requires specialists and constant management
-    - Spiral: prototypes by stages, fixed timeframes for switching (even when not done)
-  - Agile: great for risk and uncertainty (constant changes), all phases happen all the time, bit of a mess, requires lots of communication & self-organization (highly professional, skilled, integrated and client-oriented teams), estimations of cost and time are more difficult, might exceed expected times
+  - Waterfall: phases are all linear, bad at risk (changes) and scale, obsolete but good for small and short projects with clear requirements
+    - V-shaped (Validation and Verification): emphasis on testing (good for some projects), dev-test pairs by levels, very rigid
+  - Iterative: phases happen in repeating cycles (iterations, duh), one iteration ~= waterfall, good for risks (high-risk task first), more demanding, requires specialists and constant management, overhead for small projects
+    - Spiral: prototypes by stages (early delivery), fixed timeframes for switching (even when not done), excessive documentation (?)
+  - Agile: great for risk and uncertainty (constant changes), all phases happen all the time (fast delivery), bit of a mess, requires lots of communication & self-organization (highly professional, skilled, integrated and client-oriented teams), estimations of cost and time are more difficult, might exceed expected times
     - XP: pair programming and other crazy stuff
     - Scrum: all about roles and rituals
     - Manifesto
@@ -79,6 +81,26 @@
       - **Customer collaboration** > contract negotiation
       - **Responding to change** > following a plan
   - **Kanban is an approach for process improvement, NOT A SDLC METHODOLOGY**
-    - ...
+    - Principles
+      - Start where you are (gradual / incremental changes)
+      - Fuck the roles: let everyone be what they already are and respect egos
+      - Everyone can (and should) be a leader
+    - Practices
+      - Make work visual (board): workflow, capacity (WIP) and policies (should be explicit!)
+      - Limit WIP
+      - Keep it flowing (manage flow)
+      - Experiment to evolve: observe -> collaborate to improve -> small changes -> feedback
   - Best practices
-    - ...
+    - Kanban board
+    - Simple communication (let's just talk about it)
+      - Whiteboards and mind maps
+      - Simple diagrams (use cases rock)
+      - Highly involved customer
+    - Story maps
+    - Risk analysis (not as boring as it sounds)
+    - Iterative and incremental development
+      - Short cycles
+    - Work capacity estimation & work limits
+    - Constant refactoring (vs too much design)
+    - Testing (test-driven development)
+    - Automation
