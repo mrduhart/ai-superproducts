@@ -70,8 +70,8 @@
   - Phases: requirements -> design -> implementation -> testing -> deployment -> maintenance
   - Waterfall: phases are all linear, bad at risk (changes) and scale, obsolete but good for small and short projects with clear requirements
     - V-shaped (Validation and Verification): emphasis on testing (good for some projects), dev-test pairs by levels, very rigid
-  - Iterative: phases happen in repeating cycles (iterations, duh), one iteration ~= waterfall, good for risks (high-risk task first), more demanding, requires specialists and constant management, overhead for small projects
-    - Spiral: prototypes by stages (early delivery), fixed timeframes for switching (even when not done), excessive documentation (?)
+  - Iterative: phases happen in repeating cycles (iterations, duh), one iteration ~= waterfall, good for risks (high-risk task first), more demanding, requires specialists (mainly for risk) and constant management, overhead for small projects
+    - Spiral: prototypes by stages (early delivery), more incremental than iterative, fixed timeframes for switching (even when not done), excessive documentation (?), too complex
   - Agile: great for risk and uncertainty (constant changes), all phases happen all the time (fast delivery), bit of a mess, requires lots of communication & self-organization (highly professional, skilled, integrated and client-oriented teams), estimations of cost and time are more difficult, might exceed expected times
     - XP: pair programming and other crazy stuff
     - Scrum: all about roles and rituals
