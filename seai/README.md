@@ -22,6 +22,8 @@ https://ckaestne.github.io/seai/S2020/slides/05_system/systems.html
 
 https://ckaestne.github.io/seai/F2019/slides/02_components/components.html
 
+https://ckaestne.github.io/seai/F2020/slides/02_systems/systems.html
+
 5. Model quality
 
 https://ckaestne.github.io/seai/S2020/slides/04_modelquality/modelquality.html
